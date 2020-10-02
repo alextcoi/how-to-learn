@@ -1,28 +1,4 @@
-/*div {
-  border: 1px solid red;
-}
-
-img {
-  border: 1px solid red;
-}
-
-h1 {
-  border: 1px solid red;
-}
-
-h2 {
-  border: 1px solid red;
-}
-
-p {
-  border: 1px solid red;
-}
-
-a {
-  border: 1px solid red;
-}
-
-table {
+/** {
   border: 1px solid red;
 }*/
 
@@ -132,10 +108,7 @@ table {
 
 .two-columns__paragraph {
   margin: 0;
-}
-
-.two-columns__gap {
-  margin: 30px auto;
+  min-height: 30px;
 }
 
 .two-columns__span-accent {
@@ -187,6 +160,7 @@ table {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
 }
 
 .section-table__text {
@@ -330,26 +304,32 @@ table {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  color: #f2f2f2;
+  color: white;
 }
 
-.footer__columns-heading {
+.footer__columns_content-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__columns_heading {
   display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  color: #f2f2f2;
+  color: white;
   margin-top: 0;
   margin-bottom: 20px;
 }
 
-.footer__columns-links {
+.footer__columns_links {
   display: flex;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #f2f2f2;
+  color: white;
   text-decoration: none;
+  margin: 0;
 }
 
 .footer__social-icon {
