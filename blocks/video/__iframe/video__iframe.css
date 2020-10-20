@@ -3,8 +3,9 @@
   width: 515px;
   height: 316px;
   z-index: 1;
+  border: none;
 }
 
-.video__iframe:last-of-type {
+.video__iframe:last-child {
   margin-right: 0;
 }
